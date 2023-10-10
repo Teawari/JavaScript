@@ -20,3 +20,8 @@ console.log(newXerox);
 console.log(typeof newXerox);
 
 // Slice and Splice
+
+console.log("A ", xerox);
+
+const myn1 = xerox.slice(1, 3);
+console.log(myn1);
