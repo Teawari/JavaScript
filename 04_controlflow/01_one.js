@@ -19,3 +19,15 @@
 //    console.log(`You hit a century in the match against pakistan`)
 // }
 
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromGmail = true
+
+if(userLoggedIn && debitCard && 2==2){
+    console.log(`Allow to buy course`);
+}
+
+if (loggedInFromGoogle || loggedInFromGmail) {
+    console.log("User logged in");
+}
