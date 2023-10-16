@@ -20,4 +20,12 @@ for (const greet of greetings) {
 // Maps
 
 const map = new Map()
-map.
+map.set('In', 'India')
+map.set('In', 'India')  // Map is known for unique value, it doesnot repeat the data
+map.set('UK', 'United Kingdom')
+map.set('FR', 'France')
+
+console.log(map);
+ for (const [key, value] of map) {
+    console.log(key, ':-', value);
+ }
